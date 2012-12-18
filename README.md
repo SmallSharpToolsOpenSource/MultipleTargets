@@ -32,3 +32,5 @@ See StackOverflow for tips on working with multiple build targets. That is how I
 ### Credits: Brennan Stehling - SmallSharpTools LLC - 2012
 
 ### Find me on ADN [@smallsharptools](https://alpha.app.net/smallsharptools) and Twitter [@smallsharpTools](http://twitter.com/smallsharptools)
+
+![Screenshot](MultipleTargets.png)
