@@ -8,7 +8,7 @@
 2. View the project settings from Xcode Navigator (click the project icon)
 3. Rename the target if you like (Lite, Pro, OEM)
 4. Duplicate the target to another and rename it as you choose
-5. See there are not multiple .plist files
+5. See there are now multiple .plist files
 6. Place the .plist files where you want them and name then appropriately
 7. Return to each target and select the related .plist
 8. Notice the Project Name does not look as you intended
