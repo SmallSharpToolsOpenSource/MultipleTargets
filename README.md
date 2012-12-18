@@ -33,4 +33,4 @@ See StackOverflow for tips on working with multiple build targets. That is how I
 
 ### Find me on ADN [@smallsharptools](https://alpha.app.net/smallsharptools) and Twitter [@smallsharpTools](http://twitter.com/smallsharptools)
 
-![Screenshot](MultipleTargets.png)
+![Screenshot](https://github.com/brennanMKE/MultipleTargets/blob/master/MultipleTargets.png?raw=true)
