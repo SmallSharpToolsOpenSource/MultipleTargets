@@ -24,7 +24,7 @@
 18. Add -DBUILD_TARGET_IDENTIFIER as a flag for both C Flags and Other C++ Flags for Debug and Release (Change BUILD_TARGET_IDENTIFIER appropriately)
 19. Ensure that -DNS_BLOCK_ASSERTIONS=1 is still in place for Release
 20. Use #ifdef for code specific to a build target
-21. Edit schemes, delete all schemes and autocreate them to they titles match your targets
+21. Edit schemes, delete all schemes and autocreate them so the titles match your targets
 22. See sample code for an example and try running each target
 
 See StackOverflow for tips on working with multiple build targets. That is how I pieced together these details.
