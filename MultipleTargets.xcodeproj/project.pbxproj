@@ -13,9 +13,6 @@
 		26242474167FDABB00BF0AA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26242472167FDABB00BF0AA5 /* InfoPlist.strings */; };
 		26242476167FDABB00BF0AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242475167FDABB00BF0AA5 /* main.m */; };
 		2624247A167FDABB00BF0AA5 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242479167FDABB00BF0AA5 /* MTAppDelegate.m */; };
-		2624247C167FDABB00BF0AA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2624247B167FDABB00BF0AA5 /* Default.png */; };
-		2624247E167FDABB00BF0AA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2624247D167FDABB00BF0AA5 /* Default@2x.png */; };
-		26242480167FDABB00BF0AA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2624247F167FDABB00BF0AA5 /* Default-568h@2x.png */; };
 		26242483167FDABB00BF0AA5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26242481167FDABB00BF0AA5 /* MainStoryboard.storyboard */; };
 		26242486167FDABB00BF0AA5 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242485167FDABB00BF0AA5 /* MTViewController.m */; };
 		2624248E167FDABB00BF0AA5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624248D167FDABB00BF0AA5 /* SenTestingKit.framework */; };
@@ -23,6 +20,39 @@
 		26242490167FDABB00BF0AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624246B167FDABB00BF0AA5 /* Foundation.framework */; };
 		26242498167FDABB00BF0AA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26242496167FDABB00BF0AA5 /* InfoPlist.strings */; };
 		2624249B167FDABB00BF0AA5 /* MultipleTargetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2624249A167FDABB00BF0AA5 /* MultipleTargetsTests.m */; };
+		262424A6167FDAC900BF0AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242475167FDABB00BF0AA5 /* main.m */; };
+		262424A7167FDAC900BF0AA5 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242479167FDABB00BF0AA5 /* MTAppDelegate.m */; };
+		262424A8167FDAC900BF0AA5 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242485167FDABB00BF0AA5 /* MTViewController.m */; };
+		262424AA167FDAC900BF0AA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26242469167FDABB00BF0AA5 /* UIKit.framework */; };
+		262424AB167FDAC900BF0AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624246B167FDABB00BF0AA5 /* Foundation.framework */; };
+		262424AC167FDAC900BF0AA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624246D167FDABB00BF0AA5 /* CoreGraphics.framework */; };
+		262424AE167FDAC900BF0AA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26242472167FDABB00BF0AA5 /* InfoPlist.strings */; };
+		262424B2167FDAC900BF0AA5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26242481167FDABB00BF0AA5 /* MainStoryboard.storyboard */; };
+		262424BB167FDAF200BF0AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242475167FDABB00BF0AA5 /* main.m */; };
+		262424BC167FDAF200BF0AA5 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242479167FDABB00BF0AA5 /* MTAppDelegate.m */; };
+		262424BD167FDAF200BF0AA5 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242485167FDABB00BF0AA5 /* MTViewController.m */; };
+		262424BF167FDAF200BF0AA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26242469167FDABB00BF0AA5 /* UIKit.framework */; };
+		262424C0167FDAF200BF0AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624246B167FDABB00BF0AA5 /* Foundation.framework */; };
+		262424C1167FDAF200BF0AA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624246D167FDABB00BF0AA5 /* CoreGraphics.framework */; };
+		262424C3167FDAF200BF0AA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26242472167FDABB00BF0AA5 /* InfoPlist.strings */; };
+		262424C7167FDAF200BF0AA5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26242481167FDABB00BF0AA5 /* MainStoryboard.storyboard */; };
+		262424CF167FDBBB00BF0AA5 /* MultipleTargets Pro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 262424CE167FDBBB00BF0AA5 /* MultipleTargets Pro-Info.plist */; };
+		262424D1167FDBCD00BF0AA5 /* MultipleTargets OEM-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 262424D0167FDBCD00BF0AA5 /* MultipleTargets OEM-Info.plist */; };
+		26EFB91B167FE9D000D90A8A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB907167FE97500D90A8A /* Default-568h@2x.png */; };
+		26EFB91C167FE9D000D90A8A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB908167FE97500D90A8A /* Default.png */; };
+		26EFB91D167FE9D000D90A8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB909167FE97500D90A8A /* Default@2x.png */; };
+		26EFB91E167FE9E700D90A8A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB90F167FE97500D90A8A /* Default-568h@2x.png */; };
+		26EFB91F167FE9E700D90A8A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB910167FE97500D90A8A /* Default.png */; };
+		26EFB920167FE9E700D90A8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB911167FE97500D90A8A /* Default@2x.png */; };
+		26EFB921167FE9FB00D90A8A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB90B167FE97500D90A8A /* Default-568h@2x.png */; };
+		26EFB922167FE9FB00D90A8A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB90C167FE97500D90A8A /* Default.png */; };
+		26EFB923167FE9FB00D90A8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB90D167FE97500D90A8A /* Default@2x.png */; };
+		26EFB983167FF16D00D90A8A /* IconLite.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB97D167FF16900D90A8A /* IconLite.png */; };
+		26EFB984167FF16D00D90A8A /* IconLite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB97E167FF16900D90A8A /* IconLite@2x.png */; };
+		26EFB985167FF17000D90A8A /* IconOEM.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB97F167FF16900D90A8A /* IconOEM.png */; };
+		26EFB986167FF17000D90A8A /* IconOEM@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB980167FF16900D90A8A /* IconOEM@2x.png */; };
+		26EFB987167FF17600D90A8A /* IconPro.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB981167FF16A00D90A8A /* IconPro.png */; };
+		26EFB988167FF17600D90A8A /* IconPro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB982167FF16A00D90A8A /* IconPro@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +66,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26242465167FDABB00BF0AA5 /* MultipleTargets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTargets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26242465167FDABB00BF0AA5 /* MT Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MT Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26242469167FDABB00BF0AA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2624246B167FDABB00BF0AA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2624246D167FDABB00BF0AA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		26242471167FDABB00BF0AA5 /* MultipleTargets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleTargets-Info.plist"; sourceTree = "<group>"; };
+		26242471167FDABB00BF0AA5 /* MultipleTargets Lite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleTargets Lite-Info.plist"; sourceTree = "<group>"; };
 		26242473167FDABB00BF0AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26242475167FDABB00BF0AA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26242477167FDABB00BF0AA5 /* MultipleTargets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultipleTargets-Prefix.pch"; sourceTree = "<group>"; };
 		26242478167FDABB00BF0AA5 /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
 		26242479167FDABB00BF0AA5 /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
-		2624247B167FDABB00BF0AA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2624247D167FDABB00BF0AA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2624247F167FDABB00BF0AA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		26242482167FDABB00BF0AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		26242484167FDABB00BF0AA5 /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
 		26242485167FDABB00BF0AA5 /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
@@ -58,6 +85,26 @@
 		26242497167FDABB00BF0AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26242499167FDABB00BF0AA5 /* MultipleTargetsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleTargetsTests.h; sourceTree = "<group>"; };
 		2624249A167FDABB00BF0AA5 /* MultipleTargetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleTargetsTests.m; sourceTree = "<group>"; };
+		262424B6167FDAC900BF0AA5 /* MT Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MT Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		262424CB167FDAF200BF0AA5 /* MT OEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MT OEM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		262424CE167FDBBB00BF0AA5 /* MultipleTargets Pro-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultipleTargets Pro-Info.plist"; sourceTree = "<group>"; };
+		262424D0167FDBCD00BF0AA5 /* MultipleTargets OEM-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultipleTargets OEM-Info.plist"; sourceTree = "<group>"; };
+		26EFB907167FE97500D90A8A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		26EFB908167FE97500D90A8A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		26EFB909167FE97500D90A8A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		26EFB90B167FE97500D90A8A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		26EFB90C167FE97500D90A8A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		26EFB90D167FE97500D90A8A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		26EFB90F167FE97500D90A8A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		26EFB910167FE97500D90A8A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		26EFB911167FE97500D90A8A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		26EFB924167FEA8400D90A8A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		26EFB97D167FF16900D90A8A /* IconLite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconLite.png; sourceTree = SOURCE_ROOT; };
+		26EFB97E167FF16900D90A8A /* IconLite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconLite@2x.png"; sourceTree = SOURCE_ROOT; };
+		26EFB97F167FF16900D90A8A /* IconOEM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconOEM.png; sourceTree = SOURCE_ROOT; };
+		26EFB980167FF16900D90A8A /* IconOEM@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconOEM@2x.png"; sourceTree = SOURCE_ROOT; };
+		26EFB981167FF16A00D90A8A /* IconPro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconPro.png; sourceTree = SOURCE_ROOT; };
+		26EFB982167FF16A00D90A8A /* IconPro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconPro@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +128,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		262424A9167FDAC900BF0AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262424AA167FDAC900BF0AA5 /* UIKit.framework in Frameworks */,
+				262424AB167FDAC900BF0AA5 /* Foundation.framework in Frameworks */,
+				262424AC167FDAC900BF0AA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262424BE167FDAF200BF0AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262424BF167FDAF200BF0AA5 /* UIKit.framework in Frameworks */,
+				262424C0167FDAF200BF0AA5 /* Foundation.framework in Frameworks */,
+				262424C1167FDAF200BF0AA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2624245A167FDABB00BF0AA5 = {
 			isa = PBXGroup;
 			children = (
+				26EFB924167FEA8400D90A8A /* README.md */,
 				2624246F167FDABB00BF0AA5 /* MultipleTargets */,
 				26242493167FDABB00BF0AA5 /* MultipleTargetsTests */,
 				26242468167FDABB00BF0AA5 /* Frameworks */,
@@ -97,8 +165,10 @@
 		26242466167FDABB00BF0AA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26242465167FDABB00BF0AA5 /* MultipleTargets.app */,
+				26242465167FDABB00BF0AA5 /* MT Lite.app */,
 				2624248C167FDABB00BF0AA5 /* MultipleTargetsTests.octest */,
+				262424B6167FDAC900BF0AA5 /* MT Pro.app */,
+				262424CB167FDAF200BF0AA5 /* MT OEM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,12 +187,13 @@
 		2624246F167FDABB00BF0AA5 /* MultipleTargets */ = {
 			isa = PBXGroup;
 			children = (
+				26242470167FDABB00BF0AA5 /* Supporting Files */,
+				26EFB905167FE97500D90A8A /* Media */,
 				26242478167FDABB00BF0AA5 /* MTAppDelegate.h */,
 				26242479167FDABB00BF0AA5 /* MTAppDelegate.m */,
 				26242481167FDABB00BF0AA5 /* MainStoryboard.storyboard */,
 				26242484167FDABB00BF0AA5 /* MTViewController.h */,
 				26242485167FDABB00BF0AA5 /* MTViewController.m */,
-				26242470167FDABB00BF0AA5 /* Supporting Files */,
 			);
 			path = MultipleTargets;
 			sourceTree = "<group>";
@@ -130,13 +201,12 @@
 		26242470167FDABB00BF0AA5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				26242471167FDABB00BF0AA5 /* MultipleTargets-Info.plist */,
+				26242471167FDABB00BF0AA5 /* MultipleTargets Lite-Info.plist */,
+				262424CE167FDBBB00BF0AA5 /* MultipleTargets Pro-Info.plist */,
+				262424D0167FDBCD00BF0AA5 /* MultipleTargets OEM-Info.plist */,
 				26242472167FDABB00BF0AA5 /* InfoPlist.strings */,
 				26242475167FDABB00BF0AA5 /* main.m */,
 				26242477167FDABB00BF0AA5 /* MultipleTargets-Prefix.pch */,
-				2624247B167FDABB00BF0AA5 /* Default.png */,
-				2624247D167FDABB00BF0AA5 /* Default@2x.png */,
-				2624247F167FDABB00BF0AA5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,12 +230,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		26EFB905167FE97500D90A8A /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				26EFB906167FE97500D90A8A /* Lite */,
+				26EFB90E167FE97500D90A8A /* Pro */,
+				26EFB90A167FE97500D90A8A /* OEM */,
+			);
+			path = Media;
+			sourceTree = SOURCE_ROOT;
+		};
+		26EFB906167FE97500D90A8A /* Lite */ = {
+			isa = PBXGroup;
+			children = (
+				26EFB907167FE97500D90A8A /* Default-568h@2x.png */,
+				26EFB908167FE97500D90A8A /* Default.png */,
+				26EFB909167FE97500D90A8A /* Default@2x.png */,
+				26EFB97D167FF16900D90A8A /* IconLite.png */,
+				26EFB97E167FF16900D90A8A /* IconLite@2x.png */,
+			);
+			path = Lite;
+			sourceTree = "<group>";
+		};
+		26EFB90A167FE97500D90A8A /* OEM */ = {
+			isa = PBXGroup;
+			children = (
+				26EFB90B167FE97500D90A8A /* Default-568h@2x.png */,
+				26EFB90C167FE97500D90A8A /* Default.png */,
+				26EFB90D167FE97500D90A8A /* Default@2x.png */,
+				26EFB97F167FF16900D90A8A /* IconOEM.png */,
+				26EFB980167FF16900D90A8A /* IconOEM@2x.png */,
+			);
+			path = OEM;
+			sourceTree = "<group>";
+		};
+		26EFB90E167FE97500D90A8A /* Pro */ = {
+			isa = PBXGroup;
+			children = (
+				26EFB90F167FE97500D90A8A /* Default-568h@2x.png */,
+				26EFB910167FE97500D90A8A /* Default.png */,
+				26EFB911167FE97500D90A8A /* Default@2x.png */,
+				26EFB981167FF16A00D90A8A /* IconPro.png */,
+				26EFB982167FF16A00D90A8A /* IconPro@2x.png */,
+			);
+			path = Pro;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		26242464167FDABB00BF0AA5 /* MultipleTargets */ = {
+		26242464167FDABB00BF0AA5 /* MultipleTargets Lite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2624249E167FDABB00BF0AA5 /* Build configuration list for PBXNativeTarget "MultipleTargets" */;
+			buildConfigurationList = 2624249E167FDABB00BF0AA5 /* Build configuration list for PBXNativeTarget "MultipleTargets Lite" */;
 			buildPhases = (
 				26242461167FDABB00BF0AA5 /* Sources */,
 				26242462167FDABB00BF0AA5 /* Frameworks */,
@@ -175,9 +291,9 @@
 			);
 			dependencies = (
 			);
-			name = MultipleTargets;
+			name = "MultipleTargets Lite";
 			productName = MultipleTargets;
-			productReference = 26242465167FDABB00BF0AA5 /* MultipleTargets.app */;
+			productReference = 26242465167FDABB00BF0AA5 /* MT Lite.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2624248B167FDABB00BF0AA5 /* MultipleTargetsTests */ = {
@@ -198,6 +314,40 @@
 			productName = MultipleTargetsTests;
 			productReference = 2624248C167FDABB00BF0AA5 /* MultipleTargetsTests.octest */;
 			productType = "com.apple.product-type.bundle";
+		};
+		262424A4167FDAC900BF0AA5 /* MultipleTargets Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262424B3167FDAC900BF0AA5 /* Build configuration list for PBXNativeTarget "MultipleTargets Pro" */;
+			buildPhases = (
+				262424A5167FDAC900BF0AA5 /* Sources */,
+				262424A9167FDAC900BF0AA5 /* Frameworks */,
+				262424AD167FDAC900BF0AA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultipleTargets Pro";
+			productName = MultipleTargets;
+			productReference = 262424B6167FDAC900BF0AA5 /* MT Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		262424B9167FDAF200BF0AA5 /* MultipleTargets OEM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262424C8167FDAF200BF0AA5 /* Build configuration list for PBXNativeTarget "MultipleTargets OEM" */;
+			buildPhases = (
+				262424BA167FDAF200BF0AA5 /* Sources */,
+				262424BE167FDAF200BF0AA5 /* Frameworks */,
+				262424C2167FDAF200BF0AA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultipleTargets OEM";
+			productName = MultipleTargets;
+			productReference = 262424CB167FDAF200BF0AA5 /* MT OEM.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -221,7 +371,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				26242464167FDABB00BF0AA5 /* MultipleTargets */,
+				26242464167FDABB00BF0AA5 /* MultipleTargets Lite */,
+				262424A4167FDAC900BF0AA5 /* MultipleTargets Pro */,
+				262424B9167FDAF200BF0AA5 /* MultipleTargets OEM */,
 				2624248B167FDABB00BF0AA5 /* MultipleTargetsTests */,
 			);
 		};
@@ -232,11 +384,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26EFB91B167FE9D000D90A8A /* Default-568h@2x.png in Resources */,
+				26EFB91C167FE9D000D90A8A /* Default.png in Resources */,
+				26EFB91D167FE9D000D90A8A /* Default@2x.png in Resources */,
 				26242474167FDABB00BF0AA5 /* InfoPlist.strings in Resources */,
-				2624247C167FDABB00BF0AA5 /* Default.png in Resources */,
-				2624247E167FDABB00BF0AA5 /* Default@2x.png in Resources */,
-				26242480167FDABB00BF0AA5 /* Default-568h@2x.png in Resources */,
 				26242483167FDABB00BF0AA5 /* MainStoryboard.storyboard in Resources */,
+				26EFB983167FF16D00D90A8A /* IconLite.png in Resources */,
+				26EFB984167FF16D00D90A8A /* IconLite@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +399,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				26242498167FDABB00BF0AA5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262424AD167FDAC900BF0AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EFB91E167FE9E700D90A8A /* Default-568h@2x.png in Resources */,
+				26EFB91F167FE9E700D90A8A /* Default.png in Resources */,
+				26EFB920167FE9E700D90A8A /* Default@2x.png in Resources */,
+				262424AE167FDAC900BF0AA5 /* InfoPlist.strings in Resources */,
+				262424B2167FDAC900BF0AA5 /* MainStoryboard.storyboard in Resources */,
+				262424CF167FDBBB00BF0AA5 /* MultipleTargets Pro-Info.plist in Resources */,
+				26EFB987167FF17600D90A8A /* IconPro.png in Resources */,
+				26EFB988167FF17600D90A8A /* IconPro@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262424C2167FDAF200BF0AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EFB921167FE9FB00D90A8A /* Default-568h@2x.png in Resources */,
+				26EFB922167FE9FB00D90A8A /* Default.png in Resources */,
+				26EFB923167FE9FB00D90A8A /* Default@2x.png in Resources */,
+				262424C3167FDAF200BF0AA5 /* InfoPlist.strings in Resources */,
+				262424C7167FDAF200BF0AA5 /* MainStoryboard.storyboard in Resources */,
+				262424D1167FDBCD00BF0AA5 /* MultipleTargets OEM-Info.plist in Resources */,
+				26EFB985167FF17000D90A8A /* IconOEM.png in Resources */,
+				26EFB986167FF17000D90A8A /* IconOEM@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +469,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		262424A5167FDAC900BF0AA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262424A6167FDAC900BF0AA5 /* main.m in Sources */,
+				262424A7167FDAC900BF0AA5 /* MTAppDelegate.m in Sources */,
+				262424A8167FDAC900BF0AA5 /* MTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		262424BA167FDAF200BF0AA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262424BB167FDAF200BF0AA5 /* main.m in Sources */,
+				262424BC167FDAF200BF0AA5 /* MTAppDelegate.m in Sources */,
+				262424BD167FDAF200BF0AA5 /* MTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		26242492167FDABB00BF0AA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 26242464167FDABB00BF0AA5 /* MultipleTargets */;
+			target = 26242464167FDABB00BF0AA5 /* MultipleTargets Lite */;
 			targetProxy = 26242491167FDABB00BF0AA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,8 +582,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
-				INFOPLIST_FILE = "MultipleTargets/MultipleTargets-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Lite-Info.plist";
+				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_LITE";
+				PRODUCT_NAME = "MT Lite";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,8 +594,16 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
-				INFOPLIST_FILE = "MultipleTargets/MultipleTargets-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Lite-Info.plist";
+				OTHER_CFLAGS = (
+					"-DMULTIPLE_TARGETS_LITE",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				PRODUCT_NAME = "MT Lite";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -429,6 +642,54 @@
 			};
 			name = Release;
 		};
+		262424B4167FDAC900BF0AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Pro-Info.plist";
+				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_PRO";
+				PRODUCT_NAME = "MT Pro";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		262424B5167FDAC900BF0AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Pro-Info.plist";
+				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_PRO";
+				PRODUCT_NAME = "MT Pro";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		262424C9167FDAF200BF0AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets OEM-Info.plist";
+				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_OEM";
+				PRODUCT_NAME = "MT OEM";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		262424CA167FDAF200BF0AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets OEM-Info.plist";
+				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_OEM";
+				PRODUCT_NAME = "MT OEM";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -441,13 +702,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2624249E167FDABB00BF0AA5 /* Build configuration list for PBXNativeTarget "MultipleTargets" */ = {
+		2624249E167FDABB00BF0AA5 /* Build configuration list for PBXNativeTarget "MultipleTargets Lite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2624249F167FDABB00BF0AA5 /* Debug */,
 				262424A0167FDABB00BF0AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		262424A1167FDABB00BF0AA5 /* Build configuration list for PBXNativeTarget "MultipleTargetsTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +718,25 @@
 				262424A3167FDABB00BF0AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262424B3167FDAC900BF0AA5 /* Build configuration list for PBXNativeTarget "MultipleTargets Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262424B4167FDAC900BF0AA5 /* Debug */,
+				262424B5167FDAC900BF0AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262424C8167FDAF200BF0AA5 /* Build configuration list for PBXNativeTarget "MultipleTargets OEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				262424C9167FDAF200BF0AA5 /* Debug */,
+				262424CA167FDAF200BF0AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
