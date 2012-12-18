@@ -1,6 +1,6 @@
 # Multiple Targets
 
-## Building multiple alternative iOS applications from a single build with multiple build targets.
+## Building multiple iOS apps from a single project using multiple targets
 
 ### Note: These instructures are for Xcode 4.5.2 and may change in later versions of Xcode.
 
