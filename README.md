@@ -2,6 +2,29 @@
 
 ## Building multiple iOS apps from a single project using multiple targets
 
+Often apps are sold in the App Store and after making some money the app maker decides that they would like
+to use the [Freemium model](http://en.wikipedia.org/wiki/Freemium) to boost their user base but disable some
+features which can be activated with in-app purchase or to simply purchase the paid app instead. A popular model
+used most often with games is to tell items used in the app which users will purchase as regular intervals to
+generate revenue continually instead of a single point of revenue when the app is purchased.
+
+There are also white label apps which an OEM would purchase with potentially different features than the free
+or premium version. You can see lots of canned apps in the App Store which service a specific organization or
+brand which have identical features to other apps. Several companies sell white label apps in this way.
+
+This sample project shows how you can support multiple apps from a single Xcode project so that you do not have
+to mess with branching or copying source files around to keep things current. You will always have the current
+code base with each app and can push out updates to every app for bug fixes or performance improvements with
+minimal effort. But to do so you will need to understand how to set up multiple build targets, manage assets 
+which are unique to each target (launch images, icons), unique code paths and the application identifier used
+for code signing and the product name as well. The list of instructions below show how that is done along with
+a sample project for a Lite, Pro and EOM target which illustrates how this is done.
+
+Please try to recreate this sample project with 3 targets so that you understand it before you attempt to do it
+with a live project. I also strongly encourage you to experiment with changes like these in a new branch for
+your code base in case you run into trouble. It can be difficult to get every setting just right. And if you feel
+these instructions could be more clear please contact me on ADN or Twitter with my contact information below.
+
 ### Note: These instructures are for Xcode 4.5.2 and may change in later versions of Xcode.
 
 1. Create a project or start with an existing project
