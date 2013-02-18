@@ -189,9 +189,9 @@
 			children = (
 				26242470167FDABB00BF0AA5 /* Supporting Files */,
 				26EFB905167FE97500D90A8A /* Media */,
+				26242481167FDABB00BF0AA5 /* MainStoryboard.storyboard */,
 				26242478167FDABB00BF0AA5 /* MTAppDelegate.h */,
 				26242479167FDABB00BF0AA5 /* MTAppDelegate.m */,
-				26242481167FDABB00BF0AA5 /* MainStoryboard.storyboard */,
 				26242484167FDABB00BF0AA5 /* MTViewController.h */,
 				26242485167FDABB00BF0AA5 /* MTViewController.m */,
 			);

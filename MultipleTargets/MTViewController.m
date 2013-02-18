@@ -16,8 +16,7 @@
 
 @implementation MTViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
@@ -33,12 +32,6 @@
     self.titleLabel.text = @"Multiple Targets OEM";
 #endif
 
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
