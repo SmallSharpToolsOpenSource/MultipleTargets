@@ -36,8 +36,6 @@
 		262424C1167FDAF200BF0AA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624246D167FDABB00BF0AA5 /* CoreGraphics.framework */; };
 		262424C3167FDAF200BF0AA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26242472167FDABB00BF0AA5 /* InfoPlist.strings */; };
 		262424C7167FDAF200BF0AA5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26242481167FDABB00BF0AA5 /* MainStoryboard.storyboard */; };
-		262424CF167FDBBB00BF0AA5 /* MultipleTargets Pro-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 262424CE167FDBBB00BF0AA5 /* MultipleTargets Pro-Info.plist */; };
-		262424D1167FDBCD00BF0AA5 /* MultipleTargets OEM-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 262424D0167FDBCD00BF0AA5 /* MultipleTargets OEM-Info.plist */; };
 		26EFB91B167FE9D000D90A8A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB907167FE97500D90A8A /* Default-568h@2x.png */; };
 		26EFB91C167FE9D000D90A8A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB908167FE97500D90A8A /* Default.png */; };
 		26EFB91D167FE9D000D90A8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26EFB909167FE97500D90A8A /* Default@2x.png */; };
@@ -356,7 +354,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MT;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "SmallSharpTools LLC";
 			};
 			buildConfigurationList = 2624245F167FDABB00BF0AA5 /* Build configuration list for PBXProject "MultipleTargets" */;
@@ -411,7 +409,6 @@
 				26EFB920167FE9E700D90A8A /* Default@2x.png in Resources */,
 				262424AE167FDAC900BF0AA5 /* InfoPlist.strings in Resources */,
 				262424B2167FDAC900BF0AA5 /* MainStoryboard.storyboard in Resources */,
-				262424CF167FDBBB00BF0AA5 /* MultipleTargets Pro-Info.plist in Resources */,
 				26EFB987167FF17600D90A8A /* IconPro.png in Resources */,
 				26EFB988167FF17600D90A8A /* IconPro@2x.png in Resources */,
 			);
@@ -426,7 +423,6 @@
 				26EFB923167FE9FB00D90A8A /* Default@2x.png in Resources */,
 				262424C3167FDAF200BF0AA5 /* InfoPlist.strings in Resources */,
 				262424C7167FDAF200BF0AA5 /* MainStoryboard.storyboard in Resources */,
-				262424D1167FDBCD00BF0AA5 /* MultipleTargets OEM-Info.plist in Resources */,
 				26EFB985167FF17000D90A8A /* IconOEM.png in Resources */,
 				26EFB986167FF17000D90A8A /* IconOEM@2x.png in Resources */,
 			);

@@ -19,17 +19,26 @@
     
     // Ensure the proper flags are set with the selected target
     
+    NSUInteger flagCount = 0;
+    
 #ifdef MULTIPLE_TARGETS_LITE
     NSAssert([@"com.smallsharptools.Lite.MT-Lite" isEqualToString:bundleIdentifier], @"Bundle Identifier does not match C Flag");
+    flagCount++;
 #endif
     
 #ifdef MULTIPLE_TARGETS_PRO
     NSAssert([@"com.smallsharptools.Pro.MT-Pro" isEqualToString:bundleIdentifier], @"Bundle Identifier does not match C Flag");
+    flagCount++;
 #endif
     
 #ifdef MULTIPLE_TARGETS_OEM
     NSAssert([@"com.smallsharptools.OEM.MT-OEM" isEqualToString:bundleIdentifier], @"Bundle Identifier does not match C Flag");
+    flagCount++;
 #endif
+    
+    NSAssert(flagCount == 1, @"Flag Count should be 1");
+    
+    
     
     return YES;
 }

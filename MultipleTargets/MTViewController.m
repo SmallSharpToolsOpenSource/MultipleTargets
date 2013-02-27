@@ -8,6 +8,10 @@
 
 #import "MTViewController.h"
 
+
+#pragma mark - Class Extension
+#pragma mark -
+
 @interface MTViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
@@ -15,6 +19,9 @@
 @end
 
 @implementation MTViewController
+
+#pragma mark - View Lifecyle
+#pragma mark -
 
 - (void)viewDidLoad {
     [super viewDidLoad];
