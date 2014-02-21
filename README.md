@@ -55,7 +55,7 @@ as well as C flags which can be used to include behavior which is unique to each
 3. Rename the target if you like (Lite, Pro, OEM)
 4. Duplicate the target to another and rename it as you choose
 5. See there are now multiple .plist files
-6. Place the .plist files where you want them and name then appropriately
+6. Place the .plist files where you want them and name them appropriately
 7. Return to each target and select the related .plist
 8. Notice the Project Name does not look as you intended
 9. Go to the Build Settings and search for Product Name which you can change
@@ -80,8 +80,16 @@ whatever you like.
 
 See StackOverflow for tips on working with multiple build targets. That is how I pieced together these details.
 
-### Credits: Brennan Stehling - SmallSharpTools LLC - 2012
+If you have any suggestions on how to improve this sample project please fork and send a pull request.
 
-### Find me on ADN [@smallsharptools](https://alpha.app.net/smallsharptools) and Twitter [@smallsharpTools](http://twitter.com/smallsharptools)
+## License
 
-![Screenshot](https://github.com/brennanMKE/MultipleTargets/blob/master/MultipleTargets.png?raw=true)
+MultipleTargets is available under the MIT license. See the LICENSE file for more info.
+
+## Contact
+
+Brennan Stehling  
+[SmallSharpTools](http://www.smallsharptools.com/)  
+[@smallsharptools](https://twitter.com/smallsharptools) (Twitter)  
+
+![Screenshot](https://github.com/brennanMKE/MultipleTargets/raw/master/MultipleTargets.png)
