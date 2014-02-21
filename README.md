@@ -25,8 +25,6 @@ with a live project. I also strongly encourage you to experiment with changes li
 your code base in case you run into trouble. It can be difficult to get every setting just right. And if you feel
 these instructions could be more clear please contact me on ADN or Twitter with my contact information below.
 
-### Note: These instructures are for Xcode 4.5.2 and may change in later versions of Xcode.
-
 Creating multiple applications with a project in Xcode means creating multiple targets. This will allow
 the same code to be used across all targets with specific content and functionality enabled or disabled
 as appropriately using build flags and settings for the build target.
