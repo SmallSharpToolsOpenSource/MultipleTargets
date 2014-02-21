@@ -14,7 +14,7 @@
     // Override point for customization after application launch.
 
     // Access the Info Dictionary (*-Info.plist) for the Bundle Identifier
-    NSString *bundleIdentifier = [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleIdentifierKey];
+    NSString *bundleIdentifier = [[NSBundle mainBundle] infoDictionary][(NSString *)kCFBundleIdentifierKey];
     NSLog(@"Bundle Identifier: %@", bundleIdentifier);
     
     // Ensure the proper flags are set with the selected target

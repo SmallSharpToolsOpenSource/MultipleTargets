@@ -579,6 +579,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_LITE";
 				PRODUCT_NAME = "MT Lite";
 				WRAPPER_EXTENSION = app;
@@ -591,6 +592,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Lite-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = (
 					"-DMULTIPLE_TARGETS_LITE",
 					"-DNS_BLOCK_ASSERTIONS=1",
@@ -644,6 +646,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_PRO";
 				PRODUCT_NAME = "MT Pro";
 				WRAPPER_EXTENSION = app;
@@ -656,6 +659,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_PRO";
 				PRODUCT_NAME = "MT Pro";
 				WRAPPER_EXTENSION = app;
@@ -668,6 +672,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets OEM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_OEM";
 				PRODUCT_NAME = "MT OEM";
 				WRAPPER_EXTENSION = app;
@@ -680,6 +685,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets OEM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_OEM";
 				PRODUCT_NAME = "MT OEM";
 				WRAPPER_EXTENSION = app;
