@@ -27,7 +27,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    
 #ifdef MULTIPLE_TARGETS_LITE
     self.titleLabel.text = @"Multiple Targets Lite";
 #elif defined(MULTIPLE_TARGETS_PRO)

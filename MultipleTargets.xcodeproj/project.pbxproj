@@ -15,7 +15,6 @@
 		2624247A167FDABB00BF0AA5 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242479167FDABB00BF0AA5 /* MTAppDelegate.m */; };
 		26242483167FDABB00BF0AA5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26242481167FDABB00BF0AA5 /* MainStoryboard.storyboard */; };
 		26242486167FDABB00BF0AA5 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26242485167FDABB00BF0AA5 /* MTViewController.m */; };
-		2624248E167FDABB00BF0AA5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624248D167FDABB00BF0AA5 /* SenTestingKit.framework */; };
 		2624248F167FDABB00BF0AA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26242469167FDABB00BF0AA5 /* UIKit.framework */; };
 		26242490167FDABB00BF0AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2624246B167FDABB00BF0AA5 /* Foundation.framework */; };
 		26242498167FDABB00BF0AA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26242496167FDABB00BF0AA5 /* InfoPlist.strings */; };
@@ -77,8 +76,7 @@
 		26242482167FDABB00BF0AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		26242484167FDABB00BF0AA5 /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
 		26242485167FDABB00BF0AA5 /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
-		2624248C167FDABB00BF0AA5 /* MultipleTargetsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleTargetsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2624248D167FDABB00BF0AA5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2624248C167FDABB00BF0AA5 /* MultipleTargetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleTargetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26242495167FDABB00BF0AA5 /* MultipleTargetsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultipleTargetsTests-Info.plist"; sourceTree = "<group>"; };
 		26242497167FDABB00BF0AA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26242499167FDABB00BF0AA5 /* MultipleTargetsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleTargetsTests.h; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2624248E167FDABB00BF0AA5 /* SenTestingKit.framework in Frameworks */,
 				2624248F167FDABB00BF0AA5 /* UIKit.framework in Frameworks */,
 				26242490167FDABB00BF0AA5 /* Foundation.framework in Frameworks */,
 			);
@@ -164,7 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				26242465167FDABB00BF0AA5 /* MT Lite.app */,
-				2624248C167FDABB00BF0AA5 /* MultipleTargetsTests.octest */,
+				2624248C167FDABB00BF0AA5 /* MultipleTargetsTests.xctest */,
 				262424B6167FDAC900BF0AA5 /* MT Pro.app */,
 				262424CB167FDAF200BF0AA5 /* MT OEM.app */,
 			);
@@ -177,7 +174,6 @@
 				26242469167FDABB00BF0AA5 /* UIKit.framework */,
 				2624246B167FDABB00BF0AA5 /* Foundation.framework */,
 				2624246D167FDABB00BF0AA5 /* CoreGraphics.framework */,
-				2624248D167FDABB00BF0AA5 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -310,8 +306,8 @@
 			);
 			name = MultipleTargetsTests;
 			productName = MultipleTargetsTests;
-			productReference = 2624248C167FDABB00BF0AA5 /* MultipleTargetsTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 2624248C167FDABB00BF0AA5 /* MultipleTargetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		262424A4167FDAC900BF0AA5 /* MultipleTargets Pro */ = {
 			isa = PBXNativeTarget;
@@ -354,8 +350,14 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MT;
+				LastTestingUpgradeCheck = 0620;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "SmallSharpTools LLC";
+				TargetAttributes = {
+					2624248B167FDABB00BF0AA5 = {
+						TestTargetID = 26242464167FDABB00BF0AA5;
+					};
+				};
 			};
 			buildConfigurationList = 2624245F167FDABB00BF0AA5 /* Build configuration list for PBXProject "MultipleTargets" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -545,7 +547,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -566,7 +568,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -576,10 +578,11 @@
 		2624249F167FDABB00BF0AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Lite-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_LITE";
 				PRODUCT_NAME = "MT Lite";
 				WRAPPER_EXTENSION = app;
@@ -589,10 +592,11 @@
 		262424A0167FDABB00BF0AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Lite-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = (
 					"-DMULTIPLE_TARGETS_LITE",
 					"-DNS_BLOCK_ASSERTIONS=1",
@@ -609,44 +613,45 @@
 		262424A2167FDABB00BF0AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultipleTargets.app/MultipleTargets";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "MultipleTargetsTests/MultipleTargetsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MT Lite.app/MT Lite";
 			};
 			name = Debug;
 		};
 		262424A3167FDABB00BF0AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultipleTargets.app/MultipleTargets";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "MultipleTargetsTests/MultipleTargetsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MT Lite.app/MT Lite";
 			};
 			name = Release;
 		};
 		262424B4167FDAC900BF0AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Pro-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_PRO";
 				PRODUCT_NAME = "MT Pro";
 				WRAPPER_EXTENSION = app;
@@ -656,10 +661,11 @@
 		262424B5167FDAC900BF0AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Pro-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_PRO";
 				PRODUCT_NAME = "MT Pro";
 				WRAPPER_EXTENSION = app;
@@ -669,10 +675,11 @@
 		262424C9167FDAF200BF0AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets OEM-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_OEM";
 				PRODUCT_NAME = "MT OEM";
 				WRAPPER_EXTENSION = app;
@@ -682,10 +689,11 @@
 		262424CA167FDAF200BF0AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets OEM-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DMULTIPLE_TARGETS_OEM";
 				PRODUCT_NAME = "MT OEM";
 				WRAPPER_EXTENSION = app;
