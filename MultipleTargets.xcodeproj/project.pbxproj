@@ -578,7 +578,8 @@
 		2624249F167FDABB00BF0AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Lite-Info.plist";
@@ -592,7 +593,8 @@
 		262424A0167FDABB00BF0AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Lite-Info.plist";
@@ -647,7 +649,8 @@
 		262424B4167FDAC900BF0AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Pro-Info.plist";
@@ -661,7 +664,8 @@
 		262424B5167FDAC900BF0AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets Pro-Info.plist";
@@ -675,7 +679,8 @@
 		262424C9167FDAF200BF0AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets OEM-Info.plist";
@@ -689,7 +694,8 @@
 		262424CA167FDAF200BF0AA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultipleTargets/MultipleTargets-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MultipleTargets/MultipleTargets OEM-Info.plist";
